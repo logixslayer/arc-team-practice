@@ -10,7 +10,8 @@
     "dev:web": "npm run dev -w apps/web",
     "dev:api": "npm run dev -w apps/api",
     "build": "npm run build -w apps/web && npm run build -w apps/api",
-    "prisma:generate": "npm run prisma:generate -w apps/api"
+    "prisma:generate": "npm run prisma:generate -w apps/api",
+    "prisma:migrate": "npm run prisma:migrate -w apps/api"
   },
   "devDependencies": {
     "concurrently": "^9.1.2"
